@@ -135,16 +135,16 @@ th {
 }
 
 html {
-  font-size: 10px;
+  font-size: 12px;
   -webkit-tap-highlight-color: transparent;
 }
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.42857;
-  color: #333333;
-  background-color: rgb(221, 216, 216);
+  color: #444;
+  background-color: rgb(247, 247, 247);
 }
 
 input,
@@ -166,7 +166,7 @@ a:hover, a:focus {
 }
 a:focus {
   outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: 6px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
@@ -190,13 +190,13 @@ img {
 
 .img-thumbnail {
   padding: 4px;
-  line-height: 1.42857;
+  line-height: 1.42856;
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 4px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   display: inline-block;
   max-width: 100%;
   height: auto;
@@ -210,7 +210,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #d7d1d1;
+  border-top: 1px solid #f4f4f4;
 }
 
 .sr-only {
@@ -257,7 +257,7 @@ small,
 mark,
 .mark {
   background-color: #fcf8e3;
-  padding: .2em;
+  padding: .3em;
 }
 
 .text-left {
@@ -293,11 +293,11 @@ mark,
 }
 
 .text-muted {
-  color: #777777;
+  color: #4e4a4a;
 }
 
 .text-primary {
-  color: #337ab7;
+  color: #4c6778;
 }
 
 a.text-primary:hover,
@@ -306,12 +306,12 @@ a.text-primary:focus {
 }
 
 .text-success {
-  color: #356d36;
+  color: #277629;
 }
 
 a.text-success:hover,
 a.text-success:focus {
-  color: #2b542c;
+  color: #2b6f2c;
 }
 
 .text-info {
@@ -321,8 +321,8 @@ a.text-success:focus {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .container:before, .container:after {
   content: " ";
